@@ -37,7 +37,7 @@ class User(AbstractBaseUser, IndexedTimeStampedModel):
     def get_short_name(self):
         return self.email
 
-    def __str__(self):
+    def __unicode__(self):
         return self.email
 
     def has_perm(self, perm, obj=None):

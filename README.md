@@ -11,7 +11,7 @@ Simple Django Boilerplate for building awesome web applications.
 
 ## Requirements
 
-- Python >= 3.5x
+- Python >= 2.7 < 3.0
 - Pip
 - Mysql
 - NodeJs (Optional)
